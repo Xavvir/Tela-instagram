@@ -38,7 +38,8 @@ body{
 }
 
 .instagram-phone img {
-    height: 50rem;
+    height: 47rem;
+    width: 26rem;
 }
 
 .instagram-continue {
@@ -77,8 +78,9 @@ body{
 }
 
 .profile-photo img {
-    height: 8rem;
+    height: 9rem;
     border-left: 100px;
+    width: 9rem;
 }
 
 .instagram-login {
@@ -107,21 +109,23 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    padding: 1.3rem 0;
+    width: 101%;
+    padding: 1rem 0;
 }
 
 .download {
     display: flex;
-    width: 100%;
+    width: 68%;
+    height: 20px;
     justify-content: space-evenly;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem;
+    white-space:break-spaces; 
 }
 
 .app-download {
     height: 3rem;
-    width: 10rem;
+    width: 15rem;
     background-size: cover;
 }
 
